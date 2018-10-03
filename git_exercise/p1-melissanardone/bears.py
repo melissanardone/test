@@ -1,6 +1,6 @@
 def bears(n):
     """returns the result to the teddy bear 
-    game and if 42 is reachable"""
+    game and if 42 is reachable or not"""
 
     #base case
     if n == 42:

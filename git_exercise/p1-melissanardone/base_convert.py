@@ -9,7 +9,7 @@ def convert(num, b):
         else:
             return  convert(num // b, b) + num_list[(num % b)%10]
     else:
-        if num % b < 10:
+        if num % b < 10: #check to see if the number needs to be replaced with a letter
             return str(num % b)
         else:
             return num_list[(num % b)%10]

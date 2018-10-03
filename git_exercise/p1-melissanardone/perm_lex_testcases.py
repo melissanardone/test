@@ -28,7 +28,7 @@ class TestAssign1(unittest.TestCase):
         self.assertEqual(perm_lex.perm_gen_lex('abc'), ['abc', 'acb', 'bac', 'bca', 'cab', 'cba'])
 
     def test_perm_gen_lex_nine(self):
-        """string of 9 character"""
+        """tests a string of 9 character"""
         perm_lex.perm_gen_lex('abcdefghi')
 
 if __name__ == "__main__":

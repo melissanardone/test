@@ -4,7 +4,7 @@ from bears import *
 class TestAssign1(unittest.TestCase):
 
     def test_bear_01(self):
-        """should end up with 42 bears"""
+        """the result should be 42 bears"""
         self.assertTrue(bears(250))
 
     def test_bear_02(self):

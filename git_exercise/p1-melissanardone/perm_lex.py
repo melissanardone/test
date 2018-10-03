@@ -1,5 +1,5 @@
 def perm_gen_lex(a): 
-    """returns all possible combinations of a string in a list"""
+    """returns all possible combinations of the characters in a string in a list"""
 
     if a == '':
         return []

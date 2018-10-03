@@ -16,7 +16,7 @@ class TestBaseConvert(unittest.TestCase):
         self.assertEqual(convert(671,5), "10141")
 
     def test_base16(self):
-        """convert number to hex"""
+        """converts number to hex"""
         self.assertEqual(convert(316,16),"13C")
         self.assertEqual(convert(175,16),"AF")
 
